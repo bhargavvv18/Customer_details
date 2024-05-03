@@ -15,7 +15,7 @@ const cors=require('cors')
 dotenv.config()
 
 app.use(cors({
-    origin: 'http://localhost:3000' // Replace with your frontend URL
+    origin: 'https://customerdetails.vercel.app/' // Replace with your frontend URL
   }));
   
 
